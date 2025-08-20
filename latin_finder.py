@@ -29,10 +29,8 @@ def parse_latin(html_content):
             else:
                 return etymology_text + "\n" + "..no latin etymology found"
         else: 
-            return "no etymology section found"
-    else: 
-        return "no etymology section recived. google it."
-
+            return "no etymology section found. try google."
+    
 def main():
     print("Hello, knowledge seeker!")
     print("Type a word to find it's latin etymology, or 'quit' to exit.")
